@@ -16,6 +16,7 @@
 (depends-on "company")
 (depends-on "s")
 (depends-on "ht")
+(depends-on "magit")
 
 (development
  (depends-on "ert-runner"))
