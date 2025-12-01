@@ -18,6 +18,8 @@
 (depends-on "ht")
 (depends-on "magit")
 
+(message "?%s" (executable-find "git"))
+
 (development
  (depends-on "ert-runner"))
 
