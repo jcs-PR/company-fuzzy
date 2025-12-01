@@ -11,7 +11,7 @@ package:
 
 install:
 	@echo "Installing..."
-	$(EASK) install
+	$(EASK) install --verbose 5
 
 compile:
 	@echo "Compiling..."
