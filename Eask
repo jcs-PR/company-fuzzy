@@ -20,6 +20,8 @@
 
 (message "?%s" (executable-find "git"))
 
+(setq magit-credential-cache-daemon-socket nil)
+
 (development
  (depends-on "ert-runner"))
 
